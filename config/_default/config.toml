@@ -3,6 +3,7 @@
 # baseURL = "https://revolmusic23.github.io/revolc-blog-hugo/"
 # baseURL = "https://revolc-blog-hugo.vercel.app/"
 baseURL = "https://revolc.blog/"
+googleAnalytics = "G-TC7PZ5EEQP"
 languageCode = "en-us"
 title = "RevolC.Blog"
 
