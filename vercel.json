@@ -1,0 +1,19 @@
+{
+  "redirects": [
+    {
+      "source": "http://www.revolc.blog/:path*",
+      "destination": "https://revolc.blog/:path*",
+      "permanent": true
+    },
+    {
+      "source": "https://www.revolc.blog/:path*",
+      "destination": "https://revolc.blog/:path*",
+      "permanent": true
+    },
+    {
+      "source": "http://revolc.blog/:path*",
+      "destination": "https://revolc.blog/:path*",
+      "permanent": true
+    }
+  ]
+}
