@@ -1,4 +1,4 @@
-{{- $defaultColorScheme := default "auto" .Site.Params.colorScheme.default -}}
+{{- $defaultColorScheme := default "light" .Site.Params.colorScheme.default -}}
 {{- if not (default false .Site.Params.colorScheme.toggle) -}}
     {{/* If toggle is disabled, force default scheme */}}
     <script>
