@@ -21,11 +21,19 @@
   --emoji-size: 40px;
   --emoji-font-size: 20px;
 
+  .site-info {
+    padding: 0 20px;
+  }
+
   @include respond(md) {
     width: 20%;
     padding-top: var(--main-top-padding);
     padding-bottom: var(--main-top-padding);
     max-height: 100vh;
+
+    .site-info {
+      padding: 0px;
+    }
   }
 
   @include respond(2xl) {
