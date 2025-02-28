@@ -4,38 +4,53 @@
     {{- $taxonomy := $.Site.GetPage "taxonomyTerm" "categories" -}}
     {{- $terms := $taxonomy.Pages -}}
 
-    <section class="article-list">
-        {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-            {{ $categoryPage := $.Site.GetPage (printf "/categories/%s" $name) }}
-            <article class="article-list--compact has-border">
-                <a href="{{ "categories/" | relLangURL }}{{ $name | urlize }}">
-                    {{ if $categoryPage.Params.image }}
-                        <div class="article-image">
-                            <img src="{{ $categoryPage.Params.image }}" alt="{{ $categoryPage.Title }}" />
-                        </div>
-                    {{ end }}
-                    <div class="article-details">
-                        <h2 class="article-title">
-                            {{ if $categoryPage.Title }}
-                                {{ $categoryPage.Title }}
-                            {{ else }}
-                                {{ $name }}
-                            {{ end }}
-                        </h2>
-                        {{ if $categoryPage.Description }}
-                            <h3 class="article-subtitle">
-                                {{ $categoryPage.Description }}
-                            </h3>
-                        {{ end }}
-                        <footer class="article-time">
-                            <div class="article-meta">
-                                {{ T "widget.articleCount" (dict "Count" (len $taxonomy)) }}
+    <div>
+        <h2 class="widget-title section-title">{{ T "widget.categoriesCloud.title" }}</h2>
+        <section class="article-list">
+            {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+                {{ $categoryPage := $.Site.GetPage (printf "/categories/%s" $name) }}
+                <article class="article-list--compact has-border">
+                    <a href="{{ "categories/" | relLangURL }}{{ $name | urlize }}">
+                        {{ if $categoryPage.Params.image }}
+                            <div class="article-image">
+                                <img src="{{ $categoryPage.Params.image }}" alt="{{ $categoryPage.Title }}" />
                             </div>
-                        </footer>
-                    </div>
+                        {{ end }}
+                        <div class="article-details">
+                            <h2 class="article-title">
+                                {{ if $categoryPage.Title }}
+                                    {{ $categoryPage.Title }}
+                                {{ else }}
+                                    {{ $name }}
+                                {{ end }}
+                            </h2>
+                            {{ if $categoryPage.Description }}
+                                <h3 class="article-subtitle">
+                                    {{ $categoryPage.Description }}
+                                </h3>
+                            {{ end }}
+                            <footer class="article-time">
+                                <div class="article-meta">
+                                    {{ T "widget.articleCount" (dict "Count" (len $taxonomy)) }}
+                                </div>
+                            </footer>
+                        </div>
+                    </a>
+                </article>
+            {{ end }}
+        </section>
+    </div>
+
+    <!-- Tag 標籤 -->
+    <section class="widget tagCloud">
+        <h2 class="widget-title section-title">{{ T "widget.tagCloud.title" }}</h2>
+        <div class="tagCloud-tags">
+            {{ range first 10 .Site.Taxonomies.tags.ByCount }}
+                <a href="{{ .Page.RelPermalink }}" class="font_size_{{ .Count }}">
+                    {{ .Page.Title }}
                 </a>
-            </article>
-        {{ end }}
+            {{ end }}
+        </div>
     </section>
 
     {{ partialCached "footer/footer" . }}
