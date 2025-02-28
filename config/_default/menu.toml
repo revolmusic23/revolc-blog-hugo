@@ -9,17 +9,33 @@
 
 
 [[social]]
-identifier = "github"
-name = "GitHub"
-url = "https://github.com/CaiJimmy/hugo-theme-stack"
+identifier = "instagram"
+name = "Instagram"
+url = "https://www.instagram.com/revolc.blog"
 
 [social.params]
-icon = "brand-github"
+icon = "brand-instagram"
 
 [[social]]
-identifier = "twitter"
-name = "Twitter"
-url = "https://twitter.com"
+identifier = "facebook"
+name = "Facebook"
+url = "https://www.facebook.com/profile.php?id=61573093185949"
 
 [social.params]
-icon = "brand-twitter"
+icon = "brand-facebook"
+
+[[social]]
+identifier = "linktree"
+name = "Linktree"
+url = "https://linktr.ee/revolc.blog"
+
+[social.params]
+icon = "brand-linktree"
+
+[[social]]
+identifier = "vocus"
+name = "Vocus 方格子"
+url = "https://vocus.cc/user/@revolmusic"
+
+[social.params]
+icon = "layout-dashboard"
