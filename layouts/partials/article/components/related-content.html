@@ -2,12 +2,12 @@
 {{ with $related }}
 <aside class="related-content--wrapper">
     <h2 class="section-title">{{ T "article.relatedContent" }}</h2>
-    <div class="related-content">
-        <div class="flex article-list--tile">
+    <div class="main-article article-content">
+        <ul>
             {{ range . }}
-                {{ partial "article-list/tile" (dict "context" . "size" "250x150" "Type" "articleList") }}
+                <li><a class="link" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
             {{ end }}
-        </div>
+        </ul>
     </div>
 </aside>
 {{ end }}
