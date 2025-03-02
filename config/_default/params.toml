@@ -4,7 +4,6 @@ mainSections = ["posts"]
 rssFullContent = true
 # favicon = "revolc-font-logo.jpeg"
 
-description = "走走看看這個世界。"  # 可以用你現在的 subtitle
 images = ["img/revolc-font-logo.jpeg"]  # 使用你現在的 logo 作為預設分享圖片
 
 [footer]
@@ -16,7 +15,7 @@ published = "Jan 02, 2006"
 lastUpdated = "Jan 02, 2006 15:04 MST"
 
 [sidebar]
-subtitle = "走走看看這個世界。"
+subtitle = "固定上教會的一般老百姓。"
 
 [sidebar.avatar]
 enabled = true
