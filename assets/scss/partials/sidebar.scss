@@ -162,9 +162,9 @@
     margin: 0;
     font-size: 1.4rem;
 
-    @include respond(2xl) {
-      font-size: 1.6rem;
-    }
+    // @include respond(2xl) {
+    //   font-size: 1.6rem;
+    // }
   }
 }
 
