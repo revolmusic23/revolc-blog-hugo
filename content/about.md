@@ -2,6 +2,7 @@
 title: "關於我"
 slug: "about"
 readingTime: false
+showContact: false
 menu:
   main:
     weight: 15
