@@ -2,12 +2,16 @@
 {{ with $related }}
 <aside class="related-content--wrapper">
     <h2 class="section-title">{{ T "article.relatedContent" }}</h2>
-    <div class="main-article article-content">
-        <ul>
-            {{ range . }}
-                <li><a class="link" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-            {{ end }}
-        </ul>
+    <div class="article-page">
+        <div class="main-article">
+            <div class="article-content">
+                <ul>
+                    {{ range . }}
+                    <li><a class="link" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
     </div>
 </aside>
 {{ end }}
