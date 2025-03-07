@@ -44,13 +44,17 @@
     }
 
     .article-content-title {
-      font-size: 2em;
+      font-size: 1.8em;
       letter-spacing: 1px;
       margin: 0.4em 0 0 0;
       color: var(--card-text-color-main);
 
       a:hover {
         text-decoration: underline;
+      }
+
+      @include respond(md) {
+        font-size: 2em;
       }
     }
 
