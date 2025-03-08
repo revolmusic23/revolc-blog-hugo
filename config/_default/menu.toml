@@ -7,11 +7,21 @@
 #icon = "home"
 #newtab = true
 
+[[social]]
+identifier = "rss"
+name = "RSS Feed"
+url = "https://revolc.blog/posts/index.xml"
+weight = 5
+
+[social.params]
+icon = "rss"
+
 
 [[social]]
 identifier = "instagram"
 name = "Instagram"
 url = "https://www.instagram.com/revolc.blog"
+weight = 10
 
 [social.params]
 icon = "brand-instagram"
@@ -20,6 +30,7 @@ icon = "brand-instagram"
 identifier = "facebook"
 name = "Facebook"
 url = "https://www.facebook.com/profile.php?id=61573093185949"
+weight = 20
 
 [social.params]
 icon = "brand-facebook"
