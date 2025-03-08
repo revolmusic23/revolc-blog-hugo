@@ -1,0 +1,6 @@
+{{- $path := .Get 0 -}}
+{{- with .Site.GetPage $path -}}
+  <a class="link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+{{- else -}}
+  {{- errorf "linkto: 找不到頁面 %q" $path -}}
+{{- end -}}
