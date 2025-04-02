@@ -3,4 +3,3 @@ Allow: /
 
 # Sitemap
 Sitemap: https://revolc.blog/sitemap.xml
-Sitemap: https://revolc.blog/posts/index.xml
