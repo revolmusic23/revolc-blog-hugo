@@ -83,11 +83,11 @@ enabled = true
 
 ## Comments
 [comments]
-# enabled = true
-# provider = "disqus"
+enabled = true
+provider = "disqus"
 
 [comments.disqusjs]
-shortname = ""
+shortname = "revolc-blog"
 apiUrl = ""
 apiKey = ""
 admin = ""
