@@ -1,0 +1,13 @@
+{{- $slug := .Get 0 -}}
+{{- $foundPage := false -}}
+{{- range .Site.Pages -}}
+  {{- if eq .Params.slug $slug -}}
+    {{- $foundPage = true -}}
+    <a class="link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{- break -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if not $foundPage -}}
+  {{- errorf "linkto-slug: 找不到匹配 slug %q 的頁面" $slug -}}
+{{- end -}}
