@@ -15,7 +15,7 @@
                         <div class="gallery-image-container">
                             <img src="{{ $imageURL }}" alt="{{ .Title }}" class="gallery-image">
                         </div>
-                        <div class="gallery-title">{{ .Title }}</div>
+                        <!-- <div class="gallery-title">{{ .Title }}</div> -->
                     </a>
                 </div>
             {{ end }}
@@ -32,8 +32,8 @@
     
     .gallery-item {
         width: 33.333%;
-        padding: 0 10px;
-        margin-bottom: 20px;
+        padding: 0 2px;
+        margin-bottom: 4px;
         box-sizing: border-box;
     }
     
@@ -50,7 +50,7 @@
     
     .gallery-image-container {
         position: relative;
-        padding-top: 125%;
+        padding-top: 125%; /* 高/寬 */
         overflow: hidden;
         background-color: #f5f5f5;
     }
@@ -74,18 +74,12 @@
     /* 響應式設計 */
     @media (max-width: 768px) {
         .gallery-item {
-            padding: 0 4px;
-            margin-bottom: 8px;
+            /* width: 50%; */
         }
-        .gallery-title {
-            display: none;
-        }
+
     }
     
     @media (max-width: 480px) {
-        .gallery-item {
-            width: 50%;
-        }
     }
 </style>
 {{ end }}
