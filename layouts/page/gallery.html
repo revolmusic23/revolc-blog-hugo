@@ -1,7 +1,6 @@
 {{ define "main" }}
 <section class="gallery-list">
-    <h1 class="section-title">圖文</h1>
-    
+    <h1 class="section-title">圖文</h1> 
     <div class="gallery-grid">
         {{ range where .Site.RegularPages "Params.gallery_dir" "!=" nil }}
             {{ $dir := printf "%s" .Params.gallery_dir }}
