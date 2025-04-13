@@ -38,6 +38,21 @@
                     </a>
                 </article>
             {{ end }}
+            
+            <!-- Journal -->
+            <article class="article-list--compact has-border">
+                <a href="{{ "journal" | relLangURL }}">
+                    <div class="article-details">
+                        <h2 class="article-title">Journal</h2>
+                        <h3 class="article-subtitle">一些雜七雜八的廢文。</h3>
+                        <footer class="article-time">
+                            <div class="article-meta">
+                                {{ T "widget.articleCount" (dict "Count" (len (where .Site.RegularPages "Type" "eq" "journal"))) }}
+                            </div>
+                        </footer>
+                    </div>
+                </a>
+            </article>
         </section>
     </div>
 

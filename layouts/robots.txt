@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /journal/
 
 # Sitemap
 Sitemap: https://revolc.blog/sitemap.xml
