@@ -1,0 +1,56 @@
+<div class="post-navigation">
+  {{ with .NextInSection }}
+  <div class="post-wrapper">
+    <a href="{{ .RelPermalink }}" class="post-link">
+      <p>較新一篇</p>
+      <p class="post-title">{{ .Title }}</p>
+    </a>
+  </div>
+  {{ end }}
+  
+  {{ with .PrevInSection }}
+  <div class="post-wrapper older-post">
+    <a href="{{ .RelPermalink }}" class="post-link">
+      <p>較舊一篇</p>
+      <p class="post-title">{{ .Title }}</p>
+    </a>
+  </div>
+  {{ end }}
+</div>
+
+<style lang="scss">
+.post-navigation {
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+}
+
+.post-link {
+  height: 100%;
+}
+
+.post-wrapper {
+  height: 100%;
+  background-color: var(--card-background);
+  padding: 2rem;
+  border-radius: var(--card-border-radius);
+  box-shadow: var(--shadow-l1);
+
+  p {
+    margin: 0;
+  }
+  .post-title {
+    margin-top: 1rem;
+  }
+
+  &:hover {
+    background-color: var(--card-background-hover);
+    border-radius: var(--card-border-radius);
+  }
+}
+
+.older-post {
+  text-align: right;
+  grid-column: 2 / 3;
+}
+</style>

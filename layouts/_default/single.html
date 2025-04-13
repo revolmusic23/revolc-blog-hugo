@@ -31,7 +31,6 @@
     {{ end }}
     
     {{ partial "article/components/related-content" . }}
-
     {{ if ne .Params.showContact false }}
         {{ partial "article/components/contact" . }}
     {{ end }}
@@ -40,8 +39,9 @@
         {{ partial "comments/include" . }}
     {{ end }}
 
+    {{ partial "article/components/post-navigation" . }}
+    
     {{ partialCached "footer/footer" . }}
-
     {{ partialCached "article/components/photoswipe" . }}
 {{ end }}
 
