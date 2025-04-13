@@ -1,56 +1,80 @@
 <div class="post-navigation">
   {{ with .NextInSection }}
-  <div class="post-wrapper">
+  <div class="post-wrapper newer">
     <a href="{{ .RelPermalink }}" class="post-link">
-      <p>較新一篇</p>
-      <p class="post-title">{{ .Title }}</p>
+      <span class="post-direction">較新一篇</span>
+      <span class="post-title">{{ .Title }}</span>
     </a>
   </div>
   {{ end }}
   
   {{ with .PrevInSection }}
-  <div class="post-wrapper older-post">
+  <div class="post-wrapper older">
     <a href="{{ .RelPermalink }}" class="post-link">
-      <p>較舊一篇</p>
-      <p class="post-title">{{ .Title }}</p>
+      <span class="post-direction">較舊一篇</span>
+      <span class="post-title">{{ .Title }}</span>
     </a>
   </div>
   {{ end }}
 </div>
 
-<style lang="scss">
+<style>
+/* 使用更簡單的CSS，避免SCSS編譯問題 */
 .post-navigation {
-  gap: 2rem;
-  grid-template-columns: repeat(2, 1fr);
-  display: grid;
-}
-
-.post-link {
-  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem 0;
 }
 
 .post-wrapper {
-  height: 100%;
-  background-color: var(--card-background);
-  padding: 2rem;
-  border-radius: var(--card-border-radius);
+  flex: 1 0 calc(50% - 0.5rem);
+  min-width: 250px;
+  max-width: 100%;
   box-shadow: var(--shadow-l1);
-
-  p {
-    margin: 0;
-  }
-  .post-title {
-    margin-top: 1rem;
-  }
-
-  &:hover {
-    background-color: var(--card-background-hover);
-    border-radius: var(--card-border-radius);
-  }
+  background-color: var(--card-background);
+  border-radius: var(--card-border-radius);
+  transition: background-color 0.2s;
 }
 
-.older-post {
+.post-wrapper:hover {
+  background-color: var(--card-background-hover);
+}
+
+.post-link {
+  display: block;
+  padding: 1.5rem;
+  text-decoration: none;
+}
+
+.post-direction {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.post-title {
+  display: block;
+  font-weight: 500;
+  word-break: break-word;
+}
+
+.newer {
+  text-align: left;
+}
+
+.older {
   text-align: right;
-  grid-column: 2 / 3;
+}
+
+/* 細微調整手機上的顯示 */
+@media (max-width: 640px) {
+  .post-wrapper {
+    flex: 1 0 100%;
+  }
+  
+  .post-navigation {
+    flex-direction: column-reverse;
+  }
 }
 </style>
