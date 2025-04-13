@@ -30,8 +30,11 @@
         {{ partial "article/components/links" . }}
     {{ end }}
     
-    {{ partial "article/components/related-content" . }}
-    {{ if ne .Params.showContact false }}
+    {{ if (ne .Type "journal") }}
+        {{ partial "article/components/related-content" . }}
+    {{ end }}
+    
+    {{ if and (ne .Params.showContact false) (ne .Type "journal") }}
         {{ partial "article/components/contact" . }}
     {{ end }}
      
