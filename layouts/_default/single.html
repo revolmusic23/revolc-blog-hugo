@@ -44,6 +44,12 @@
 
     {{ partial "article/components/post-navigation" . }}
     
+    {{ if eq .Type "journal" }}
+    <section class="article-tags">
+        <a href="/journal">Back to Journal</a>
+    </section>
+    {{ end }}
+
     {{ partialCached "footer/footer" . }}
     {{ partialCached "article/components/photoswipe" . }}
 {{ end }}
