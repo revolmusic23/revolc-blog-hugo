@@ -2,7 +2,9 @@
 <section class="gallery-list">
     <h1 class="section-title">圖文</h1> 
     <div class="gallery-grid">
-        {{ range where .Site.RegularPages "Params.gallery_dir" "!=" nil }}
+        {{ $galleryPages := where .Site.RegularPages "Params.gallery_dir" "!=" nil }}
+        {{ $sortedPages := sort $galleryPages "Params.gallery_dir" "desc" }}
+        {{ range $sortedPages }}
             {{ $dir := printf "%s" .Params.gallery_dir }}
             {{ $files := readDir (print "static/gallery/" $dir) }}
             {{ if gt (len $files) 0 }}
@@ -14,7 +16,6 @@
                         <div class="gallery-image-container">
                             <img src="{{ $imageURL }}" alt="{{ .Title }}" class="gallery-image">
                         </div>
-                        <!-- <div class="gallery-title">{{ .Title }}</div> -->
                     </a>
                 </div>
             {{ end }}
