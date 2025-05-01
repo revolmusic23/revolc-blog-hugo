@@ -1,0 +1,16 @@
+{{ $baseURL := "https://www.revolc.blog" }}
+{{ $relPath := strings.TrimPrefix "/" .RelPermalink }}
+{{ $fullURL := print $baseURL "/" $relPath }}
+
+<a class="social-btn" href="https://www.facebook.com/sharer.php?u={{ $fullURL | urlquery }}" target="_blank" aria-label="分享到 Facebook">
+  <img src="/facebook-icon.png" width="24" height="24">
+</a>
+
+<style scoped>
+  .social-btn {
+    filter: grayscale(100%);
+    &:hover {
+      filter: grayscale(0%);
+    }
+  }
+</style>
