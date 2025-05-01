@@ -1,7 +1,9 @@
 <footer class="article-footer">
     <div class="footer-part">
         {{ partial "article/components/tags" . }}
-        {{ partial "article/components/share-buttons" . }}
+        {{ if (ne .Type "journal") }}
+            {{ partial "article/components/share-buttons" . }}
+        {{ end }}
     </div>
 </footer>
 
