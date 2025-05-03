@@ -7,16 +7,17 @@
     .image-gallery li a img {width: 100%; display: block;}
 </style>
 <ul class="image-gallery" style="padding: 0 var(--card-padding);">
-{{ $dir := printf "%s" .Params.gallery_dir }}
-{{ range (readDir (print "static/gallery/" $dir)) }}
-  {{- $imagetitle := index (split .Name ".") 0 -}}
-  {{- $imageurl := printf "/gallery/%s/%s" $dir .Name -}}
+  {{ $dir := printf "%s" .Params.gallery_dir }}
+  {{ $files := readDir (print "static/gallery/" $dir) }}
+  {{ $sortedFiles := sort $files "Name" }}
+  {{ range $sortedFiles }}
+    {{- $imagetitle := index (split .Name ".") 0 -}}
+    {{- $imageurl := printf "/gallery/%s/%s" $dir .Name -}}
     <li>
       <a href="{{ $imageurl }}" title="{{ $imagetitle }}" data-lightbox="gallery" data-title="{{ $imagetitle }}">
         <img src="{{ $imageurl }}" alt="{{ $imagetitle }}" title="{{ $imagetitle }}">
-        <!-- <span>{{ $imagetitle }}</span> -->
       </a>
     </li>
-{{ end }}
+  {{ end }}
 </ul>
 {{ end }}
