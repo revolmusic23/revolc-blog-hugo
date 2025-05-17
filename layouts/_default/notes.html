@@ -1,0 +1,52 @@
+{{ define "body-class" }}template-archives{{ end }}
+{{ define "main" }}
+  {{/* 1. 抓出 notes 底下的所有文章，排除 hidden & _index.md */}}
+  {{ $pages     := where .Site.RegularPages "Type" "eq" "notes" }}
+  {{ $notHidden := where $pages           "Params.hidden" "!=" true }}
+  {{ $filtered  := where $notHidden       ".IsSection"      "!=" true }}
+
+  {{/* 2. 用 taxonomy.categories 分組 */}}
+  {{ range $catName, $taxonomy := .Site.Taxonomies.categories }}
+    {{ $inCat := intersect $taxonomy.Pages $filtered }}
+    {{ if gt (len $inCat) 0 }}
+      {{/* 取得 taxonomy term 頁面 */}}
+      {{ $categoryPage := $.Site.GetPage (printf "/categories/%s" $catName) }}
+      {{/* 如果拿得到，就顯示 term 的 Title（frontmatter 裡的 title）；否則用 key */}}
+      {{ $displayName := cond $categoryPage $categoryPage.Title $catName }}
+
+      <div class="archives-group" id="{{ $catName | urlize }}">
+        <h2 class="archives-date section-title">
+          <a href="{{ $.RelPermalink }}#{{ $catName | urlize }}">
+            <span class="article-count">
+              {{ $displayName }} ({{ len $inCat }})
+            </span>
+          </a>
+        </h2>
+        <div class="article-list--compact">
+          {{ range $inCat }}
+            {{ partial "article-list/compact" . }}
+          {{ end }}
+        </div>
+      </div>
+    {{ end }}
+  {{ end }}
+
+  {{/* 3. 處理「未分類」 */}}
+  {{ $uncat := where $filtered "Params.categories" nil }}
+  {{ if gt (len $uncat) 0 }}
+    <div class="archives-group" id="uncategorized">
+      <h2 class="archives-date section-title">
+        <a href="{{ $.RelPermalink }}#uncategorized">
+          <span class="article-count">未分類 ({{ len $uncat }})</span>
+        </a>
+      </h2>
+      <div class="article-list--compact">
+        {{ range $uncat }}
+          {{ partial "article-list/compact" . }}
+        {{ end }}
+      </div>
+    </div>
+  {{ end }}
+
+  {{ partialCached "footer/footer" . }}
+{{ end }}
