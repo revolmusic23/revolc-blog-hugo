@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>筆記 on Revol.C 雷歐</title><link>https://revolc.blog/notes/</link><description>Recent content in 筆記 on Revol.C 雷歐</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 17 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://revolc.blog/notes/index.xml" rel="self" type="application/rss+xml"/><item><title>FFmpeg</title><link>https://revolc.blog/notes/ffmpeg/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>https://revolc.blog/notes/ffmpeg/</guid><description/><content:encoded>&lt;h2 id="webm-to-mp3">WebM to mp3
+&lt;/h2>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">ffmpeg -i vwMYtCgohX0.f251.webm -q:a &lt;span class="m">4&lt;/span> -vn brave.mp3
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>&lt;code>-i&lt;/code>：Input 輸入檔案&lt;/li>
+&lt;li>&lt;code>-q:a 4&lt;/code>：正常音質（quality, audio）
+&lt;ul>
+&lt;li>0：最高音質，2：高音質，6：低音質&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;code>-vn&lt;/code>：不要輸出視訊（因為你只要音訊）&lt;/li>
+&lt;/ul>
+&lt;h2 id="裁剪影片">裁剪影片
+&lt;/h2>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">ffmpeg -ss 00:39:50 -to 02:07:00 -i &lt;span class="s2">&amp;#34;20181223穿越的克里斯.mp4&amp;#34;&lt;/span> -c copy &lt;span class="s2">&amp;#34;穿越的克里斯_裁切版.mp4&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>參數&lt;/th>
+&lt;th>英文全名&lt;/th>
+&lt;th>中文解釋&lt;/th>
+&lt;th>記憶小技巧&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>&lt;code>-ss&lt;/code>&lt;/td>
+&lt;td>&lt;strong>start time&lt;/strong>&lt;/td>
+&lt;td>開始時間（從哪裡開始裁切）&lt;/td>
+&lt;td>&lt;code>ss = start seconds&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>-to&lt;/code>&lt;/td>
+&lt;td>&lt;strong>to time&lt;/strong>&lt;/td>
+&lt;td>結束時間（到哪裡結束裁切）&lt;/td>
+&lt;td>&lt;code>to = 到哪裡為止&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>-i&lt;/code>&lt;/td>
+&lt;td>&lt;strong>input&lt;/strong>&lt;/td>
+&lt;td>輸入檔案&lt;/td>
+&lt;td>&lt;code>i = input&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>-c&lt;/code>&lt;/td>
+&lt;td>&lt;strong>codec&lt;/strong>&lt;/td>
+&lt;td>指定使用的編碼器&lt;/td>
+&lt;td>&lt;code>c = codec&lt;/code>（編碼方式）&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>&lt;code>copy&lt;/code>&lt;/td>
+&lt;td>&lt;strong>copy streams&lt;/strong>&lt;/td>
+&lt;td>不重新壓縮，直接複製音訊與影片流&lt;/td>
+&lt;td>&lt;code>copy = 快速、省空間、不失真&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></content:encoded></item><item><title>RSS</title><link>https://revolc.blog/notes/rss/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>https://revolc.blog/notes/rss/</guid><description/><content:encoded>&lt;p>rss&lt;/p></content:encoded></item><item><title>弦樂編寫</title><link>https://revolc.blog/notes/strings/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>https://revolc.blog/notes/strings/</guid><description/><content:encoded>&lt;p>Aim Strings&lt;/p></content:encoded></item></channel></rss>
