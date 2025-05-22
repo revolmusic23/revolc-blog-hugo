@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /journal/
+Disallow: /notes/
 Disallow: /*.xml$
 
 # Sitemap
