@@ -5,7 +5,7 @@ layout: "notes"
 slug: "notes"
 menu:
   main:
-    weight: 20
+    weight: 23
     params:
       icon: pencil
 ---
