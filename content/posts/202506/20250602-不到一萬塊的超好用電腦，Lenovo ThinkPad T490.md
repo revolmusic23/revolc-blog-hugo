@@ -14,7 +14,7 @@ tags:
 
 ## MacBook 裝 Linux 的慘痛經驗
 
-其實幾個月前，我就已經想嘗試在**已經變成廢鐵的 MacBook** 嘗試裝 Linux Mint，但是問題太多了，讓我對 Linux 沒有留下好印象。
+其實幾個月前，我就嘗試在**已經變成廢鐵的 MacBook** 嘗試裝 Linux Mint，但是問題太多了，讓我對 Linux 沒有留下好印象。
 
 我用的是 2017 出版的 MacBook Pro，在網路上搜尋發現這代的 Mac 硬體的確跟 Linux 有點不相容：
 
