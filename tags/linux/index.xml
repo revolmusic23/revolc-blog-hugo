@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Linux on Revol.C 雷歐</title><link>https://revolc.blog/tags/linux/</link><description>Recent content in Linux on Revol.C 雷歐</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 02 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://revolc.blog/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>不到一萬塊的超好用電腦，Lenovo ThinkPad T490</title><link>https://revolc.blog/posts/thinkpad-t490/</link><pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate><guid>https://revolc.blog/posts/thinkpad-t490/</guid><description/><content:encoded>&lt;p>最近剛買了一臺不到一萬塊的二手筆電，不得不說，真的是便宜又好用，甚至我覺得不輸三四萬塊的 Mac。&lt;/p>
+&lt;p>而決定買這台電腦，正是我決定坐下來耐心地跟 Linux 成為朋友的起步，也是我&lt;strong>脫離蘋果生態系的第一步&lt;/strong>。&lt;/p>
+&lt;h2 id="macbook-裝-linux-的慘痛經驗">MacBook 裝 Linux 的慘痛經驗
+&lt;/h2>&lt;p>其實幾個月前，我就嘗試在&lt;strong>已經變成廢鐵的 MacBook&lt;/strong> 嘗試裝 Linux Mint，但是問題太多了，讓我對 Linux 沒有留下好印象。&lt;/p>
+&lt;p>我用的是 2017 出版的 MacBook Pro，在網路上搜尋發現這代的 Mac 硬體的確跟 Linux 有點不相容：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>喇叭發不出聲音；&lt;/strong>&lt;/li>
+&lt;li>發現 Mint 22 跟 Mac 的音效驅動程式有問題，又重灌成 Mint 21.3；&lt;/li>
+&lt;li>輸入注音時會一直跳掉；&lt;/li>
+&lt;li>藍芽一直連不到；&lt;/li>
+&lt;li>連不到 Wi-Fi；&lt;/li>
+&lt;li>&lt;strong>蓋上筆電休眠之後，螢幕全黑卡住；&lt;/strong>&lt;/li>
+&lt;li>好不容易登入了之後，又發不出聲音，注音輸入法又有問題，藍芽也連不到，又得重新開機。&lt;/li>
+&lt;/ul>
+&lt;p>雖然我知道本來就有硬體跟軟體相容的問題，MacBook 本來就是專門為了 MacOS 設計的，&lt;strong>而蘋果就是要把大家都綁在自己的生態系&lt;/strong>。不過就是因為這些有的沒的小問題，讓我始終還是沒辦法好好用 Linux。&lt;/p>
+&lt;p>&lt;strong>而因此，我決定放棄這些掙扎，買一個可以讓我好好體驗的 Linux 的電腦。&lt;/strong>&lt;/p>
+&lt;p>我買的是 Lenovo ThinkPad T490：&lt;/p>
+&lt;ul>
+&lt;li>處理器：Intel i5-8365u&lt;/li>
+&lt;li>記憶體：16 GB RAM&lt;/li>
+&lt;li>硬碟：512 GB SSD&lt;/li>
+&lt;li>價錢：$9,780&lt;/li>
+&lt;/ul>
+&lt;figure>&lt;img src="https://revolc.blog/202506/t490.jpeg" width="400">
+&lt;/figure>
+&lt;p>（16 GB 的記憶體，跟 512 GB 的 SSD 硬碟居然不到一萬塊，今年的 MacBook 就要&lt;a class="link" href="https://www.apple.com/tw/shop/buy-mac/macbook-air" target="_blank" rel="noopener"
+>四萬多塊&lt;/a>！）&lt;/p>
+&lt;h2 id="thinkpad">ThinkPad
+&lt;/h2>&lt;h3 id="安裝-linux">安裝 Linux
+&lt;/h3>&lt;p>拿到筆電的第一步，當然就是直接重灌成 Linux Mint 21.3。&lt;/p>
+&lt;p>而花了一個小時灌完之後，我完全體會網路上的「&lt;strong>隨插即用&lt;/strong>」是什麼感覺！&lt;/p>
+&lt;p>還記得我前面說的 Mac 遇到的各種問題嗎？在 ThinkPad 上，完全沒有！&lt;strong>就是一個非常正常、順暢的體驗&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>直接連上 Wi-Fi、藍芽、輸入注音正常；&lt;/li>
+&lt;li>蓋上筆電休眠之後再打開，正常回到登入畫面；&lt;/li>
+&lt;li>然後播放音樂&amp;hellip;..有聲音！&lt;/li>
+&lt;/ul>
+&lt;p>除此之外，這臺筆電還有本身的一些優點。&lt;/p>
+&lt;h3 id="便宜">便宜
+&lt;/h3>&lt;p>便宜，真的是它最大的優勢。這不只是代表我可以讓我少花點存款這麼簡單，它更是代表：&lt;/p>
+&lt;ul>
+&lt;li>它被弄壞我不會心痛，&lt;strong>所以我可以隨便灌任何自己想玩的東西&lt;/strong>；&lt;/li>
+&lt;li>我可以常常帶出去，不用一直擔心下雨會不會淋到它。&lt;/li>
+&lt;/ul>
+&lt;p>——而一直用，才是發揮它的最大價值！&lt;/p>
+&lt;h3 id="鍵盤">鍵盤
+&lt;/h3>&lt;p>鍵盤超好打！MacBook 的鍵盤真的是薄到崩潰，完全沒有爽感。但在 ThinkPad 上面，&lt;strong>我可以在打完一長串文字的時候，爽快的按「Enter」&lt;/strong>，而且是有聲音的那種！&lt;/p>
+&lt;p>雖然跟機械鍵盤一定還是有差，但是光是在筆電上能感受到按下去有反饋的感覺，我就覺得很讚了！&lt;/p>
+&lt;p>（而且還找到了沒有注音的鍵盤，看起來好乾淨。）&lt;/p>
+&lt;h2 id="結論">結論
+&lt;/h2>&lt;p>雖然還是有很多要習慣的地方，但是要轉換本來就是需要一段過渡期。&lt;/p>
+&lt;p>現在我真的很喜歡這台電腦，而且我已經把它帶出去用了！兩天前帶去咖啡廳，昨天又帶去教會的主日打筆記。&lt;/p>
+&lt;figure>&lt;img src="https://revolc.blog/202506/t490-coffee.jpg"
+alt="在咖啡廳開終端機感覺好潮" width="400">&lt;figcaption>
+&lt;p>在咖啡廳開終端機感覺好潮&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>當然啦，我覺得如果是要做音樂或影片相關的工作，Mac 當然還是首選。但如果你只是要處理基本的文書作業，&lt;strong>那 Linux 真的完全可以做得很好！&lt;/strong>&lt;/p>
+&lt;p>更重要的是，如果你不想花那麼多錢，想要不到一萬塊就有一臺非常好用的電腦，那就&lt;strong>一起加入 ThinkPad + Linux 的陣營吧！&lt;/strong>&lt;/p></content:encoded></item></channel></rss>

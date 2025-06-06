@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>科技相關 on Revol.C 雷歐</title><link>https://revolc.blog/categories/code/</link><description>Recent content in 科技相關 on Revol.C 雷歐</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 02 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://revolc.blog/categories/code/index.xml" rel="self" type="application/rss+xml"/><item><title>不到一萬塊的超好用電腦，Lenovo ThinkPad T490</title><link>https://revolc.blog/posts/thinkpad-t490/</link><pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate><guid>https://revolc.blog/posts/thinkpad-t490/</guid><description/><content:encoded>&lt;p>最近剛買了一臺不到一萬塊的二手筆電，不得不說，真的是便宜又好用，甚至我覺得不輸三四萬塊的 Mac。&lt;/p>
+&lt;p>而決定買這台電腦，正是我決定坐下來耐心地跟 Linux 成為朋友的起步，也是我&lt;strong>脫離蘋果生態系的第一步&lt;/strong>。&lt;/p>
+&lt;h2 id="macbook-裝-linux-的慘痛經驗">MacBook 裝 Linux 的慘痛經驗
+&lt;/h2>&lt;p>其實幾個月前，我就嘗試在&lt;strong>已經變成廢鐵的 MacBook&lt;/strong> 嘗試裝 Linux Mint，但是問題太多了，讓我對 Linux 沒有留下好印象。&lt;/p>
+&lt;p>我用的是 2017 出版的 MacBook Pro，在網路上搜尋發現這代的 Mac 硬體的確跟 Linux 有點不相容：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>喇叭發不出聲音；&lt;/strong>&lt;/li>
+&lt;li>發現 Mint 22 跟 Mac 的音效驅動程式有問題，又重灌成 Mint 21.3；&lt;/li>
+&lt;li>輸入注音時會一直跳掉；&lt;/li>
+&lt;li>藍芽一直連不到；&lt;/li>
+&lt;li>連不到 Wi-Fi；&lt;/li>
+&lt;li>&lt;strong>蓋上筆電休眠之後，螢幕全黑卡住；&lt;/strong>&lt;/li>
+&lt;li>好不容易登入了之後，又發不出聲音，注音輸入法又有問題，藍芽也連不到，又得重新開機。&lt;/li>
+&lt;/ul>
+&lt;p>雖然我知道本來就有硬體跟軟體相容的問題，MacBook 本來就是專門為了 MacOS 設計的，&lt;strong>而蘋果就是要把大家都綁在自己的生態系&lt;/strong>。不過就是因為這些有的沒的小問題，讓我始終還是沒辦法好好用 Linux。&lt;/p>
+&lt;p>&lt;strong>而因此，我決定放棄這些掙扎，買一個可以讓我好好體驗的 Linux 的電腦。&lt;/strong>&lt;/p>
+&lt;p>我買的是 Lenovo ThinkPad T490：&lt;/p>
+&lt;ul>
+&lt;li>處理器：Intel i5-8365u&lt;/li>
+&lt;li>記憶體：16 GB RAM&lt;/li>
+&lt;li>硬碟：512 GB SSD&lt;/li>
+&lt;li>價錢：$9,780&lt;/li>
+&lt;/ul>
+&lt;figure>&lt;img src="https://revolc.blog/202506/t490.jpeg" width="400">
+&lt;/figure>
+&lt;p>（16 GB 的記憶體，跟 512 GB 的 SSD 硬碟居然不到一萬塊，今年的 MacBook 就要&lt;a class="link" href="https://www.apple.com/tw/shop/buy-mac/macbook-air" target="_blank" rel="noopener"
+>四萬多塊&lt;/a>！）&lt;/p>
+&lt;h2 id="thinkpad">ThinkPad
+&lt;/h2>&lt;h3 id="安裝-linux">安裝 Linux
+&lt;/h3>&lt;p>拿到筆電的第一步，當然就是直接重灌成 Linux Mint 21.3。&lt;/p>
+&lt;p>而花了一個小時灌完之後，我完全體會網路上的「&lt;strong>隨插即用&lt;/strong>」是什麼感覺！&lt;/p>
+&lt;p>還記得我前面說的 Mac 遇到的各種問題嗎？在 ThinkPad 上，完全沒有！&lt;strong>就是一個非常正常、順暢的體驗&lt;/strong>：&lt;/p>
+&lt;ul>
+&lt;li>直接連上 Wi-Fi、藍芽、輸入注音正常；&lt;/li>
+&lt;li>蓋上筆電休眠之後再打開，正常回到登入畫面；&lt;/li>
+&lt;li>然後播放音樂&amp;hellip;..有聲音！&lt;/li>
+&lt;/ul>
+&lt;p>除此之外，這臺筆電還有本身的一些優點。&lt;/p>
+&lt;h3 id="便宜">便宜
+&lt;/h3>&lt;p>便宜，真的是它最大的優勢。這不只是代表我可以讓我少花點存款這麼簡單，它更是代表：&lt;/p>
+&lt;ul>
+&lt;li>它被弄壞我不會心痛，&lt;strong>所以我可以隨便灌任何自己想玩的東西&lt;/strong>；&lt;/li>
+&lt;li>我可以常常帶出去，不用一直擔心下雨會不會淋到它。&lt;/li>
+&lt;/ul>
+&lt;p>——而一直用，才是發揮它的最大價值！&lt;/p>
+&lt;h3 id="鍵盤">鍵盤
+&lt;/h3>&lt;p>鍵盤超好打！MacBook 的鍵盤真的是薄到崩潰，完全沒有爽感。但在 ThinkPad 上面，&lt;strong>我可以在打完一長串文字的時候，爽快的按「Enter」&lt;/strong>，而且是有聲音的那種！&lt;/p>
+&lt;p>雖然跟機械鍵盤一定還是有差，但是光是在筆電上能感受到按下去有反饋的感覺，我就覺得很讚了！&lt;/p>
+&lt;p>（而且還找到了沒有注音的鍵盤，看起來好乾淨。）&lt;/p>
+&lt;h2 id="結論">結論
+&lt;/h2>&lt;p>雖然還是有很多要習慣的地方，但是要轉換本來就是需要一段過渡期。&lt;/p>
+&lt;p>現在我真的很喜歡這台電腦，而且我已經把它帶出去用了！兩天前帶去咖啡廳，昨天又帶去教會的主日打筆記。&lt;/p>
+&lt;figure>&lt;img src="https://revolc.blog/202506/t490-coffee.jpg"
+alt="在咖啡廳開終端機感覺好潮" width="400">&lt;figcaption>
+&lt;p>在咖啡廳開終端機感覺好潮&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>當然啦，我覺得如果是要做音樂或影片相關的工作，Mac 當然還是首選。但如果你只是要處理基本的文書作業，&lt;strong>那 Linux 真的完全可以做得很好！&lt;/strong>&lt;/p>
+&lt;p>更重要的是，如果你不想花那麼多錢，想要不到一萬塊就有一臺非常好用的電腦，那就&lt;strong>一起加入 ThinkPad + Linux 的陣營吧！&lt;/strong>&lt;/p></content:encoded></item><item><title>Syncthing 好好用，我終於不用再靠雲端傳檔案了！</title><link>https://revolc.blog/posts/syncthing-without-cloud/</link><pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate><guid>https://revolc.blog/posts/syncthing-without-cloud/</guid><description/><content:encoded>&lt;p>如果你要把一個檔案，從 A 電腦傳到 B 電腦，你會怎麼做？&lt;/p>
+&lt;h2 id="我以前傳檔案的方式">我以前傳檔案的方式
+&lt;/h2>&lt;ol>
+&lt;li>AirDrop&lt;/li>
+&lt;li>用 LINE 個人群組&lt;/li>
+&lt;li>Google 雲端&lt;/li>
+&lt;/ol>
+&lt;p>但是這三個都有麻煩的地方：&lt;/p>
+&lt;ol>
+&lt;li>AirDrop：&lt;strong>如果不是 Apple 產品，完全不能用。&lt;/strong>&lt;/li>
+&lt;li>LINE：要一直登入登出 LINE，而且就為了一個檔案特別登出登入挺麻煩。&lt;/li>
+&lt;li>Google Drive：如果是很大或很多檔案，甚至一整個資料夾，我光是上傳就很久了。更不用說我還要再另外一臺電腦下載回來。&lt;/li>
+&lt;/ol>
+&lt;p>直到某天在 &lt;a class="link" href="https://wiwi.blog/blog/password-manager/" target="_blank" rel="noopener"
+>Wiwi.Blog&lt;/a> 上看到 &lt;a class="link" href="https://syncthing.net/" target="_blank" rel="noopener"
+>Syncthing&lt;/a> 這個工具，終於解決了我的問題。&lt;/p>
+&lt;h2 id="syncthing-同步檔案">Syncthing 同步檔案
+&lt;/h2>&lt;p>簡單來說，就是只要兩台電腦之間互相加了好友，並且設定 A 電腦的哪個資料夾要跟 B 的哪個資料夾同步。之後，只要兩邊都有連上網路的時候，&lt;strong>任何一邊的資料夾裡面有變動，另一邊就會跟著變動&lt;/strong>。而且不只是兩臺電腦，要幾臺電腦都可以！&lt;/p>
+&lt;p>想想看，如果今天你有你要把一個 1 GB 的影片傳給五個電腦，如果用雲端的話，你就要先花幾分鐘上傳影片，然後再分別跑到五臺電腦前面花幾分鐘下載影片，這搞不好就要花 30 分鐘。&lt;/p>
+&lt;p>但如果用 Syncthing，你只要把下載的影片拖曳到已經設定同步的資料夾。&lt;strong>幾秒鐘之後，五臺電腦就全部都能收到了&lt;/strong>！你甚至不需要走到那五臺電腦的前面按任何按鈕。&lt;/p>
+&lt;p>例如我目前會固定拿來同步的是：密碼管理器、記帳檔案、瀏覽器書籤、筆記、音樂等等。&lt;/p>
+&lt;p>不過很可惜的是，iOS 我目前還沒找到可以相容的方法，這也是讓我日後想要換其他手機作業系統的推力之一。&lt;/p>
+&lt;h2 id="不要透過雲端來傳資料">不要透過雲端來傳資料
+&lt;/h2>&lt;p>雲端，如果用最簡單的一句話來說就是——「&lt;strong>別人的電腦&lt;/strong>」。&lt;/p>
+&lt;ul>
+&lt;li>Google Drive：Google 的電腦&lt;/li>
+&lt;li>iCloud：Apple 的電腦&lt;/li>
+&lt;/ul>
+&lt;p>假如今天你要把檔案傳給 A，然後有個不認識的 B 說：「你可以把檔案放我這邊，我再拿去給 A」。&lt;/p>
+&lt;p>如果是一些比較機密的文件，你可能就要認真思考了，因為 B 可能會偷看。&lt;/p>
+&lt;p>當然你可以跟 B 說「不要看」，B 也會跟你說「他不會看」，&lt;strong>但是他沒辦法證明&lt;/strong>。而你能做的就只是「相信他不會這樣做」。&lt;/p>
+&lt;p>我的意思當然也不是說不要用雲端。雲端，最重要的功能莫過於備份，否則哪天家裡失火了，電腦手機、硬碟、NAS 全部都壞了的時候，你的重要檔案還有留一份在「別人的電腦」。&lt;/p>
+&lt;p>但是，就「自己傳遞檔案給自己」這點來說，我的建議是不要用雲端。（或許我之後可以再來寫一篇相關的文章。）&lt;/p>
+&lt;p>說了這麼多，結論就是：&lt;strong>趕快去下載 Syncthing 來玩玩吧！&lt;/strong>&lt;/p></content:encoded></item><item><title>把你喜歡的音樂存起來吧，否則以後再也聽不到</title><link>https://revolc.blog/posts/save-music-you-like/</link><pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate><guid>https://revolc.blog/posts/save-music-you-like/</guid><description/><content:encoded>&lt;p>幾年前有個喜歡的日本虛擬歌手「芦澤サキ」，覺得她的嗓音很棒。&lt;/p>
+&lt;p>最近想要找回來聽時才發現跟經紀公司發生了一些問題，導致以前 YouTube 的內容全部下架（&lt;a class="link" href="https://home.gamer.com.tw/creationDetail.php?sn=5607964" target="_blank" rel="noopener"
+>相關連結&lt;/a>）。&lt;/p>
+&lt;p>幸好我找到一個叫 Ragtag Archive 的網站，裡面還有她以前的歌。&lt;strong>於是我馬上把那些喜歡的歌全部都下載下來&lt;/strong>。而且照這個情況來看，搞不好過一陣子「道明寺ここあ（同公司的另一位虛擬歌手）」的頻道也會被關閉，&lt;strong>所以如果你喜歡的話，也趕快下載下來吧！&lt;/strong>&lt;/p>
+&lt;p>&lt;em>（附上一首「芦澤サキ」翻唱的&lt;a class="link" href="https://archive.ragtag.moe/watch?v=Nn-9VuX7JG0" target="_blank" rel="noopener"
+>棒球大聯盟主題曲《心繪》&lt;/a>。）&lt;/em>&lt;/p>
+&lt;p>裡面有方便的 Download Audio 按鈕，接下來就可以下載 &lt;code>.webm&lt;/code> 檔案。不用知道這是什麼沒關係，直接在終端機輸入一行英文：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">ffmpeg -i &lt;span class="s2">&amp;#34;xxx.webm&amp;#34;&lt;/span> -q:a &lt;span class="m">4&lt;/span> -vn &lt;span class="s2">&amp;#34;轉檔後的音檔.mp3&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>一秒鐘後，你的資料夾就出現了 &lt;code>.mp3&lt;/code> 檔案。&lt;/p>
+&lt;h2 id="把喜歡的音樂都下載下來吧">把喜歡的音樂都下載下來吧！
+&lt;/h2>&lt;p>經過這次事件，我現在發現喜歡的音樂都會趕快下載下來。&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>如果是只把作品放在 YouTube 上的創作者&lt;/strong>，很有可能哪天被版權宣告而無預警就消失；&lt;/li>
+&lt;li>就算是已經發了專輯到各大平臺的歌手，搞不好哪天跟經紀公司鬧出問題、解約，然後&lt;strong>一夕之間把所有數位平台的歌曲下架&lt;/strong>。&lt;/li>
+&lt;/ul>
+&lt;p>只要用 &lt;code>yt-dlp, spotdl, ffmpeg&lt;/code> 等工具，就可以快速把 YouTube、Spotify、StreetVoice 等的歌曲快速下載下來。&lt;/p>
+&lt;p>如果是你喜歡的歌手，與其一直在線上看廣告來幫助他增加廣告收入，更好的支持方法應該是直接&lt;strong>購買專輯、加入會員&lt;/strong>、以及各種直接捐款贊助等方式。&lt;/p>
+&lt;h3 id="下載下來會不會很佔空間">下載下來會不會很佔空間？
+&lt;/h3>&lt;p>這也是我原本的擔心的，不過我要說，如果是音樂的話，完全不會！&lt;/p>
+&lt;p>我現在存了 325 首 MP3 的歌，才佔了 1.3 GB！&lt;strong>甚至比一堆電腦 App 佔的容量還要少。&lt;/strong>&lt;/p>
+&lt;p>其實我覺得影片也應該要有這種下載的習慣，但是影片就真的很佔容量了，所以我還在斟酌。如果有什麼想法歡迎寄信到 &lt;a class="link" href="mailto:revolcc@proton.me" >revolcc@proton.me&lt;/a> 跟我說！&lt;/p>
+&lt;p>目前都是存那種整場演唱會的檔案（畢竟這種非常容易在網路上消失）。&lt;/p></content:encoded></item><item><title>把專輯數字前綴拿掉</title><link>https://revolc.blog/notes/remove-file-prefix/</link><pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate><guid>https://revolc.blog/notes/remove-file-prefix/</guid><description/><content:encoded>&lt;h2 id="需求">需求
+&lt;/h2>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">* 01 GFRIEND - Intro (Belief).mp3
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">* 02 GFRIEND - Love Whisper.mp3
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">* ...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">* 10 GFRIEND - Summer Rain (Instrumental).mp3
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">⬇
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">* GFRIEND - Intro (Belief).mp3
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">* GFRIEND - Love Whisper.mp3
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">* ...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">* GFRIEND - Summer Rain (Instrumental).mp3
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="實作">實作
+&lt;/h2>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="k">for&lt;/span> f in *.mp3&lt;span class="p">;&lt;/span> &lt;span class="k">do&lt;/span> mv &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="nv">$f&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span> &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="k">$(&lt;/span>&lt;span class="nb">echo&lt;/span> &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="nv">$f&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span> &lt;span class="p">|&lt;/span> sed &lt;span class="s1">&amp;#39;s/^[0-9][0-9] //&amp;#39;&lt;/span>&lt;span class="k">)&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="p">;&lt;/span> &lt;span class="k">done&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>&lt;code>for f in *.mp3&lt;/code>：對目前資料夾下所有 &lt;code>.mp3&lt;/code> 檔案進行迴圈（&lt;code>f&lt;/code> 就是每個檔名）。&lt;/li>
+&lt;li>&lt;code>do ... done&lt;/code>：這是 bash 的迴圈語法，&lt;code>do&lt;/code> 裡面會對每個檔案執行一次命令。&lt;/li>
+&lt;li>&lt;code>mv 舊檔名 新檔名&lt;/code>：把「舊檔名」改成「新檔名」。&lt;/li>
+&lt;li>&lt;code>echo &amp;quot;$f&amp;quot;&lt;/code>：把 &lt;code>$f&lt;/code> 印出來，例如某次 &lt;code>$f&lt;/code> 是 &lt;code>&amp;quot;01 GFRIEND – Love Whisper.mp3&amp;quot;&lt;/code>。&lt;/li>
+&lt;li>&lt;code>|&lt;/code> 是管線，代表把 &lt;code>echo &amp;quot;$f&amp;quot;&lt;/code> 的輸出交給 &lt;code>sed&lt;/code> 處理。&lt;/li>
+&lt;li>&lt;code>sed&lt;/code> 是文字處理工具。&lt;/li>
+&lt;li>&lt;code>'s/^[0-9][0-9] //'&lt;/code> 的意思是把 &lt;code>01 &lt;/code>、&lt;code>02 &lt;/code> 替代為「空白」：
+&lt;ul>
+&lt;li>&lt;code>舊字串//新字串&lt;/code>：把「舊字串」取代為「新字串」。&lt;/li>
+&lt;li>&lt;code>s/&lt;/code>：substitue，替代。&lt;/li>
+&lt;li>&lt;code>^&lt;/code>：字串開頭。&lt;/li>
+&lt;li>&lt;code>[0-9][0-9] &lt;/code>：任意兩個數字 + 一個空白&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>最後會跑的程式是像這樣：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">mv &lt;span class="m">01&lt;/span> GFRIEND - Intro &lt;span class="o">(&lt;/span>Belief&lt;span class="o">)&lt;/span>.mp3 GFRIEND - Intro &lt;span class="o">(&lt;/span>Belief&lt;span class="o">)&lt;/span>.mp3
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mv &lt;span class="m">02&lt;/span> GFRIEND - Love Whisper.mp3 GFRIEND - Love Whisper.mp3
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mv &lt;span class="m">03&lt;/span> GFRIEND - Summer Rain.mp3 GFRIEND - Summer Rain.mp3
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mv &lt;span class="m">04&lt;/span> GFRIEND - Rainbow.mp3 GFRIEND - Rainbow.mp3
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mv &lt;span class="m">05&lt;/span> GFRIEND - Ave Maria.mp3 GFRIEND - Ave Maria.mp3
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mv &lt;span class="m">06&lt;/span> GFRIEND - One-Half.mp3 GFRIEND - One-Half.mp3
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mv &lt;span class="m">07&lt;/span> GFRIEND - Life Is a Party.mp3 GFRIEND - Life Is a Party.mp3
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mv &lt;span class="m">08&lt;/span> GFRIEND - Red Umbrella.mp3 GFRIEND - Red Umbrella.mp3
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mv &lt;span class="m">09&lt;/span> GFRIEND - Falling Asleep Again.mp3 GFRIEND - Falling Asleep Again.mp3
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mv &lt;span class="m">10&lt;/span> GFRIEND - Summer Rain &lt;span class="o">(&lt;/span>Instrumental&lt;span class="o">)&lt;/span>.mp3 GFRIEND - Summer Rain &lt;span class="o">(&lt;/span>Instrumental&lt;span class="o">)&lt;/span>.mp3
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></content:encoded></item><item><title>怎麼下載 StreetVoice 的音樂？</title><link>https://revolc.blog/notes/download-streetvoice-music/</link><pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate><guid>https://revolc.blog/notes/download-streetvoice-music/</guid><description/><content:encoded>&lt;h2 id="streetvoice-怎麼播放音樂">StreetVoice 怎麼播放音樂？
+&lt;/h2>&lt;ul>
+&lt;li>一首三分鐘的歌曲，會被拆成大約 10 秒一段的 &lt;code>.ts&lt;/code> 檔案。&lt;/li>
+&lt;li>系統會產生一個 &lt;code>.m3u8&lt;/code> 播放清單，裡面寫好每段音樂的順序。&lt;/li>
+&lt;li>播放器就會照著清單，一段一段把 &lt;code>.ts&lt;/code> 播起來，聽起來就像一首完整的歌。&lt;/li>
+&lt;li>我們可以使用 &lt;code>ffmpeg&lt;/code>這個終端機工具，透過 &lt;code>.m3u8&lt;/code> 把這些段落抓下來，接起來，就能下載整首歌了。&lt;/li>
+&lt;/ul>
+&lt;h2 id="下載流程">下載流程
+&lt;/h2>&lt;ol>
+&lt;li>打開開發者工具，點選 Network，並在搜尋欄搜尋「&lt;code>m3u8&lt;/code>」。&lt;/li>
+&lt;li>播放音樂，這時候開發者工具應該會跳出一項。&lt;/li>
+&lt;li>複製那一項的 Request URL，大概會長得像這樣：&lt;code>https://akhls.streetvoice.com/xxx.m3u8&lt;/code>。&lt;/li>
+&lt;li>在終端機輸入：&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">ffmpeg -headers &lt;span class="s2">&amp;#34;Referer: https://streetvoice.com/&amp;#34;&lt;/span> -i &lt;span class="s2">&amp;#34;https://akhls.streetvoice.com/xxx.m3u8&amp;#34;&lt;/span> -c copy &lt;span class="s2">&amp;#34;歌名.mp3&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>&lt;code>-headers &amp;quot;Referer: https://streetvoice.com/&amp;quot;&lt;/code>：告訴瀏覽器，我是從 StreetVoice 上面下載的。&lt;/li>
+&lt;/ul>
+&lt;h2 id="m3u8-是什麼">m3u8 是什麼？
+&lt;/h2>&lt;p>它裡面不包含「音樂檔案」，而是一個純文字的播放清單檔案，告訴系統要播放的音樂順序，以及每首音樂有多久。&lt;/p>
+&lt;p>簡單來說就像：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">1. 歌曲長度 3 分鐘，播放檔案：周杰倫 - 楓.mp3
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">2. 歌曲長度 4 分鐘，播放檔案：kobasolo, 春茶 - Love letter.mp3
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">3. ...
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>稍微貼近真實情況的例子：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">1. 歌曲長度 10.004900 秒，播放檔案：eTGgeuMAuxms7DtfjmuYo2.mp3.128khls.mp3-00001.ts
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">2. 歌曲長度 10.004900 秒，播放檔案：eTGgeuMAuxms7DtfjmuYo2.mp3.128khls.mp3-00002.ts
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">3. ...
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>實際打開某個 &lt;code>.m3u8&lt;/code> 長這樣：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">#EXTM3U
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">#EXT-X-VERSION:3
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">#EXT-X-TARGETDURATION:11
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">#EXT-X-MEDIA-SEQUENCE:1
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">#EXTINF:10.004900,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">eTGgeuMAuxms7DtfjmuYo2.mp3.128khls.mp3-00001.ts
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">#EXTINF:10.004900,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">eTGgeuMAuxms7DtfjmuYo2.mp3.128khls.mp3-00002.ts
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">#EXTINF:10.004889,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">eTGgeuMAuxms7DtfjmuYo2.mp3.128khls.mp3-00003.ts
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">#EXTINF:10.004900,
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">eTGgeuMAuxms7DtfjmuYo2.mp3.128khls.mp3-00004.ts
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">#EXT-X-ENDLIST
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></content:encoded></item><item><title>FFmpeg</title><link>https://revolc.blog/notes/ffmpeg/</link><pubDate>Sat, 17 May 2025 00:00:00 +0000</pubDate><guid>https://revolc.blog/notes/ffmpeg/</guid><description/><content:encoded>&lt;h2 id="mp4-to-mp3">mp4 to mp3
+&lt;/h2>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">ffmpeg -i input.mp4 -q:a &lt;span class="m">0&lt;/span> -map a output.mp3
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>&lt;code>-i&lt;/code>：Input 輸入檔案&lt;/li>
+&lt;li>&lt;code>-q:a 0&lt;/code>：音質最好（quality, audio）
+&lt;ul>
+&lt;li>0：最高音質 / 2：高音質 / 4：正常音質 / 6：低音質&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;code>-map a&lt;/code>：只選擇音訊（audio）&lt;/li>
+&lt;/ul>
+&lt;h2 id="wav-to-mp3">wav to mp3
+&lt;/h2>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">ffmpeg -i input.wav -c:a libmp3lame -b:a 192k output.mp3
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="webm-to-mp3">webm to mp3
+&lt;/h2>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">ffmpeg -i vwMYtCgohX0.f251.webm -q:a &lt;span class="m">4&lt;/span> -vn brave.mp3
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>&lt;code>-i&lt;/code>：Input 輸入檔案&lt;/li>
+&lt;li>&lt;code>-q:a 4&lt;/code>：正常音質（quality, audio）
+&lt;ul>
+&lt;li>0：最高音質，2：高音質，6：低音質&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;code>-vn&lt;/code>：不要輸出視訊（因為你只要音訊）&lt;/li>
+&lt;/ul>
+&lt;h2 id="裁剪音樂">裁剪音樂
+&lt;/h2>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">ffmpeg -ss 00:39:50 -to 02:07:00 -i &lt;span class="s2">&amp;#34;原影片.mp4&amp;#34;&lt;/span> -c copy &lt;span class="s2">&amp;#34;剪輯完.mp4&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>&lt;code>-ss&lt;/code>：start time，開始時間&lt;/li>
+&lt;li>&lt;code>-to&lt;/code>：to time，結束時間&lt;/li>
+&lt;li>&lt;code>-i&lt;/code>：input，你要輸入的檔案&lt;/li>
+&lt;li>&lt;code>-c&lt;/code>：codec，指定使用的編碼器&lt;/li>
+&lt;li>&lt;code>copy&lt;/code>：不重新壓縮讀取，直接複製整個音訊跟影片，並進行剪輯&lt;/li>
+&lt;/ul>
+&lt;p>不只可以用 &lt;code>.mp4&lt;/code>，&lt;code>.mp3&lt;/code> 等的音樂檔也可以用同樣格式。&lt;/p>
+&lt;h2 id="下載-streetvoice-音樂">下載 StreetVoice 音樂
+&lt;/h2>&lt;p>&lt;a class="link" href="../download-streetvoice-music" >點此連結&lt;/a>。&lt;/p>
+&lt;h2 id="將所有-wma-轉成-mp3">將所有 &lt;code>.wma&lt;/code> 轉成 &lt;code>.mp3&lt;/code>。
+&lt;/h2>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">find . -iname &lt;span class="s1">&amp;#39;*.wma&amp;#39;&lt;/span> -exec sh -c &lt;span class="s1">&amp;#39;ffmpeg -i &amp;#34;$1&amp;#34; -q:a 0 &amp;#34;${1%.wma}.mp3&amp;#34;&amp;#39;&lt;/span> sh &lt;span class="o">{}&lt;/span> &lt;span class="se">\;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">find . -iname &lt;span class="s1">&amp;#39;*.wav&amp;#39;&lt;/span> -exec sh -c &lt;span class="s1">&amp;#39;ffmpeg -i &amp;#34;$1&amp;#34; -q:a 0 &amp;#34;${1%.wav}.mp3&amp;#34;&amp;#39;&lt;/span> sh &lt;span class="o">{}&lt;/span> &lt;span class="se">\;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">find . -iname &lt;span class="s1">&amp;#39;*.wav&amp;#39;&lt;/span> -exec sh -c &lt;span class="s1">&amp;#39;ffmpeg -i &amp;#34;$1&amp;#34; &amp;#34;${1%.wav}.mp3&amp;#34;&amp;#39;&lt;/span> sh &lt;span class="o">{}&lt;/span> &lt;span class="se">\;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>&lt;code>find .&lt;/code>：&lt;code>.&lt;/code> 代表當前目錄，&lt;code>find&lt;/code> 會在這裡開始搜索。&lt;/li>
+&lt;li>&lt;code>-iname '*.wma'&lt;/code>：尋找所有擴展名為 &lt;code>.wma&lt;/code> 的檔案，不區分大小寫。&lt;/li>
+&lt;li>&lt;code>-exec sh -c '...' sh {} \;&lt;/code>：對於每個找到的檔案，&lt;code>find&lt;/code> 命令會執行指定的 &lt;code>sh -c&lt;/code> 命令。這裡，&lt;code>sh -c&lt;/code> 允許我們執行一個小的 shell 腳本。&lt;/li>
+&lt;li>&lt;code>&amp;quot;ffmpeg -i &amp;quot;$1&amp;quot; -q:a 0 &amp;quot;${1%.wma}.mp3&amp;quot;&lt;/code>：&lt;code>$1&lt;/code> 是由 &lt;code>find&lt;/code> 傳入的檔案路徑（&lt;code>{}&lt;/code> 的位置），&lt;code>${1%.wma}.mp3&lt;/code> 使用 shell 的參數替換功能來將檔案名的 &lt;code>.wma&lt;/code> 替換為 &lt;code>.mp3&lt;/code>。&lt;/li>
+&lt;li>&lt;code>-q:a 0&lt;/code>：這是 ffmpeg 的選項，用來指定最高的音質。&lt;/li>
+&lt;/ul></content:encoded></item><item><title>我開始喜歡寫程式的原因</title><link>https://revolc.blog/posts/why-like-coding/</link><pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate><guid>https://revolc.blog/posts/why-like-coding/</guid><description>是什麼契機，讓一個大學差點被退學，每堂必修課都修至少三次的人開始喜歡寫程式？</description><content:encoded>&lt;p>雖然我從小數理好文科弱、大學是唸資訊、也常自嘲自己看起來是個肥宅。但認識我的都知道，我大學超級討厭寫程式，討厭到差點被退學。&lt;/p>
+&lt;p>我大學六年一直在掙扎自己以後要走程式，還是要走音樂，或是乾脆選一個另外的領域（例如設計）。&lt;/p>
+&lt;p>不過現在的我，就像你看到的，是個工程師。除了最現實的錢錢外，最重要的原因也是因為：&lt;strong>我克服了對程式的排斥&lt;/strong>。&lt;/p>
+&lt;h2 id="寫程式的目的">寫程式的目的
+&lt;/h2>&lt;p>一開始我討厭寫程式的原因有：&lt;/p>
+&lt;ul>
+&lt;li>我不知道寫程式是要幹嘛。&lt;/li>
+&lt;li>學校的作業很難，我不知道學這個&lt;strong>除了以後賺錢之外還可以幹嘛&lt;/strong>。&lt;/li>
+&lt;li>我不喜歡看一大堆的黑底白字。&lt;/li>
+&lt;/ul>
+&lt;p>影響我寫程式最重要的人，其實並不是什麼資深工程師，或是什麼教授，居然是——&lt;a class="link" href="https://wiwi.video/c/nicecode/videos" target="_blank" rel="noopener"
+>Wiwi 官大為&lt;/a>，一位鋼琴老師。&lt;/p>
+&lt;p>他讓我深刻體會到程式是用來幹嘛的，那就是：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>解決問題&lt;/strong>&lt;/li>
+&lt;li>幫助人（自己）過得方便&lt;/li>
+&lt;/ol>
+&lt;p>雖然這些觀念學校教授也都有講過，但是當他們講這些，卻同時要學一大堆很難的作業系統、演算法、組合語言，跟一大堆很難的作業，我完全沒辦法把這些跟「解決問題」、「幫助自己過得方便」連結起來。&lt;/p>
+&lt;p>但是其實程式不一定都是這麼複雜。&lt;strong>它也可以是短短一兩行、十行不到的東西，卻可以幫助我們改善生活非常多&lt;/strong>。&lt;/p>
+&lt;p>&lt;em>（我覺得這就很像三個傻瓜裡面的經典片段：教授問學生什麼是機械，學生回答了一大串艱深的字詞，但其實機械的本質就是主角說的：「幫我們減少人力、節省時間的東西，例如電風扇、拉鏈、手機」。）&lt;/em>&lt;/p>
+&lt;figure>&lt;img src="https://revolc.blog/posts-images/3-idiots-say-easy.jpg"
+alt="三個傻瓜的經典片段">&lt;figcaption>
+&lt;p>三個傻瓜的經典片段&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;blockquote>
+&lt;p>預防針聲明：我沒有要抱怨學校教授的意思，我很感謝他們。只是我當初真的提不起興趣，所以也沒有非常努力地跟上學校進度。&lt;/p>&lt;/blockquote>
+&lt;h2 id="簡單的程式應用">簡單的程式應用
+&lt;/h2>&lt;p>以下是一些簡單的程式應用：&lt;/p>
+&lt;ul>
+&lt;li>我可以寫十幾行的程式，幫我把某個 YouTube 頻道的影片標題全部抓下來，並且存檔成一個 &lt;code>.md&lt;/code>、&lt;code>.txt&lt;/code> 檔。這個多簡單，但他就是一個程式。&lt;/li>
+&lt;li>我可以寫一兩行的程式，把我們教會一整年的話語稿檔名格式從「2025年3月2日主日話語」，改成「20250302 主日話語」。它非常簡單，卻可以幫助我的生活很多。&lt;/li>
+&lt;li>我可以寫一兩行的程式，把我部落格資料夾的所有文章檔案標題印出來，然後整理成一個列表。&lt;/li>
+&lt;li>我可以在五十張製作好的縮圖右下角都加上浮水印（當然這個比上面的難很多）。&lt;/li>
+&lt;/ul>
+&lt;h2 id="使用別人寫好的程式工具">使用別人寫好的程式工具
+&lt;/h2>&lt;p>除了自己寫一些簡單的小程式，我也可以在黑底白字的視窗（終端機），輸入幾個英文單字，就用一些別人已經寫好的程式工具。例如：&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>yt-dlp&lt;/code>：輸入幾個單字加上 YouTube 影片網址，就直接把影片下載到電腦。我也可以只下載裡面的 CC 字幕、mp3 檔，或是只下載長影片的一小片段。&lt;/li>
+&lt;li>&lt;code>spotdl&lt;/code>：我可以把 Spotify 的整個專輯的連結複製下來，再加入一兩個英文單字，不到三分鐘的時間，十首歌的專輯就整理成一個資料夾出現在我的檔案中。&lt;/li>
+&lt;li>&lt;code>ffmpeg&lt;/code>：我可以輸入幾個單字，把我的 &lt;code>.mp4&lt;/code> 轉成 &lt;code>.mp3&lt;/code> 檔。&lt;/li>
+&lt;/ul>
+&lt;h2 id="稍微碰一些程式看看吧">稍微碰一些程式看看吧！
+&lt;/h2>&lt;p>其實我蠻推薦每個人都稍微碰一些程式。&lt;/p>
+&lt;p>倒不一定要真的寫出些什麼，但是至少可以學一下終端機、用一些方便的程式工具。它們真的可以幫助生活非常多。&lt;/p></content:encoded></item><item><title>試著讓初學者理解 API</title><link>https://revolc.blog/posts/understanding-api-for-beginner/</link><pubDate>Sat, 20 Jul 2024 00:00:00 +0000</pubDate><guid>https://revolc.blog/posts/understanding-api-for-beginner/</guid><description>來看看程式跟程式之間怎麼溝通跟傳遞資料。</description><content:encoded>&lt;h2 id="基本解釋">基本解釋
+&lt;/h2>&lt;p>API（Application Programming Interface），中文翻為應用程式介面，用一句話來解釋的話，就是：兩個應用程式（電腦）接觸時所要依照的規範。&lt;/p>
+&lt;p>再用白話一點的方式來解釋，就是：「&lt;strong>程式跟程式之間的面交規範。&lt;/strong>」&lt;/p>
+&lt;p>以面交買東西為例，假如今天我要跟某個店家面交買東西，那以下可能是他會事先定好的注意事項：&lt;/p>
+&lt;ol>
+&lt;li>你在哪個地方可以跟我碰面。&lt;/li>
+&lt;li>你要給我什麼（例如錢、身分證件）。&lt;/li>
+&lt;li>這樣我就會給你什麼。&lt;/li>
+&lt;/ol>
+&lt;p>假如我今天要預約要買鋼琴，那他會事先跟我說：&lt;/p>
+&lt;ol>
+&lt;li>你可以在臺中的某個街道跟我碰面。&lt;/li>
+&lt;li>你要給我事先約好的鋼琴金額、身分證件。&lt;/li>
+&lt;li>我會給你鋼琴。&lt;/li>
+&lt;/ol>
+&lt;p>現在把鋼琴換成是某個「電腦資料」，比如說 NBA 的球員數據好了。
+如果我今天想要找 Nikola Jokic 去年整年的數據，那我可能就會去找有提供數據的店家，他也已經定好面交規範：&lt;/p>
+&lt;ol>
+&lt;li>你可以在某個秘密網址找到我。&lt;/li>
+&lt;li>你要給我你想要哪一年的什麼數據。&lt;/li>
+&lt;li>我就會給你球員的數據。&lt;/li>
+&lt;/ol>
+&lt;p>這個東西翻成程式的語言就是：&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>URL&lt;/strong>：你可以在某個秘密「網址」找到我。&lt;/li>
+&lt;li>&lt;strong>Request&lt;/strong>：我需要你給我「要求」的東西。&lt;/li>
+&lt;li>&lt;strong>Response&lt;/strong>：我會「回應」給你相關的資料。&lt;/li>
+&lt;/ol>
+&lt;h2 id="api-的用法">API 的用法
+&lt;/h2>&lt;p>以下我會舉例三種方法：&lt;code>GET, POST, PUT&lt;/code>。&lt;/p>
+&lt;h3 id="get">GET
+&lt;/h3>&lt;p>字面意思，&lt;code>GET&lt;/code> 指的就是「拿取」資料。&lt;/p>
+&lt;p>以在 Instagram 貼文為例。如果今天我要看某個人的某篇文章，於是我點進了這個文章頁面。這時 Instagram 的前端工程師就要跟後端去拿資料，通常就會用 &lt;code>GET&lt;/code>。&lt;/p>
+&lt;p>他們之間所定的 API 規則可能長這樣：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">URL: 127.0.0.1/articles
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Request: article_id, user_id
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Response: time, content, likes, comments
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>我們可以在 &lt;code>127.0.0.1/articles&lt;/code> 這個網址碰面。&lt;/li>
+&lt;li>你要給我的東西是：
+&lt;ul>
+&lt;li>你想要看哪篇貼文（&lt;code>article_id&lt;/code>）&lt;/li>
+&lt;li>想要看這篇貼文的是誰（&lt;code>user_id&lt;/code>）（如果發文的人跟使用者不是好友，可能會被擋住。）&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>我會回傳給你：
+&lt;ul>
+&lt;li>發文時間（&lt;code>time&lt;/code>）&lt;/li>
+&lt;li>文章內容（&lt;code>content&lt;/code>）&lt;/li>
+&lt;li>有誰按讚（&lt;code>likes&lt;/code>）&lt;/li>
+&lt;li>留言有哪些（&lt;code>comments&lt;/code>）&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="post">POST
+&lt;/h3>&lt;p>&lt;code>POST&lt;/code> 可以想成是 PO 文，用學術一點的解釋就是，使用者在資料庫「創建」一筆新的資料。&lt;/p>
+&lt;p>以使用者要發一篇新的文為例，API 規格可能長這樣：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">URL: 127.0.0.1/articles
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Request: user_id, content
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Response: article_id, &amp;#34;發文成功&amp;#34;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>雖然這邊的網址跟 &lt;code>GET&lt;/code> 一樣，但是因為一個是 &lt;code>GET&lt;/code>，一個是 &lt;code>POST&lt;/code>。用法不同，所以可以同時存在，不會衝突。&lt;/p>
+&lt;ul>
+&lt;li>我們可以在 &lt;code>127.0.0.1/articles&lt;/code> 這個網址碰面。&lt;/li>
+&lt;li>你要給我的東西：
+&lt;ul>
+&lt;li>發文的人是誰（&lt;code>user_id&lt;/code>）&lt;/li>
+&lt;li>文章內容（&lt;code>content&lt;/code>）&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>我會回傳給你：
+&lt;ul>
+&lt;li>這篇文章的在資料庫是編號多少（&lt;code>article_id&lt;/code>）。&lt;/li>
+&lt;li>「發文成功」（&lt;code>message&lt;/code>）。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="put">PUT
+&lt;/h3>&lt;p>可以 &lt;code>PUT&lt;/code> 想成是 Edit（編輯）。&lt;/p>
+&lt;p>假設今天使用者要編輯貼文，API 規格可能長這樣：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">URL: 127.0.0.1/articles
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Request: article_id, content, user_id
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Response: &amp;#34;發文成功&amp;#34;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>我們可以在 &lt;code>127.0.0.1/articles&lt;/code> 這個網址碰面。&lt;/li>
+&lt;li>你要給我的東西：
+&lt;ul>
+&lt;li>這是哪篇文章（&lt;code>article_id&lt;/code>）&lt;/li>
+&lt;li>新的文章內容（&lt;code>content&lt;/code>）&lt;/li>
+&lt;li>發文的人是誰（&lt;code>user_id&lt;/code>）、&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>我會回傳給你：「發文成功」（&lt;code>message&lt;/code>）。&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>你可能有注意到這三個 API 的 URL 都一樣，這樣會不會打架？&lt;br>
+不會，因為是程式會把 &lt;code>GET, POST, PUT&lt;/code> 這些動作看成是不同的。&lt;/p>&lt;/blockquote>
+&lt;h3 id="一些工作用語">一些工作用語
+&lt;/h3>&lt;p>在公司裡面，通常大家會用的詞語是「打」。我可以稍微舉例一些詞句：&lt;/p>
+&lt;ul>
+&lt;li>我按下這個按鈕的時候需要拿到資料，這時候應該要「打」這一隻 API。&lt;/li>
+&lt;li>這一隻 API 漏了什麼參數，我需要你給我，可以修改一下嗎？&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="總結">總結
+&lt;/h2>&lt;p>以上是關於 API 的白話分享，希望這篇文章對你有幫助！&lt;/p>
+&lt;p>工作之前我也是花了好多的時間搞懂到底什麼是 API，不過其實工作之後會覺得，這根本不是一個「學問」，比較像是一個習以為常的用品。或許這也是為什麼，當有人問一個工程師說：「什麼是 API？」對方也會一時之間不知道怎麼回答。&lt;/p></content:encoded></item><item><title>在 Git 裡面，怎麼把自己的分支 merge 進 main？</title><link>https://revolc.blog/posts/how-to-merge-git-branch-to-main/</link><pubDate>Thu, 18 Jul 2024 00:00:00 +0000</pubDate><guid>https://revolc.blog/posts/how-to-merge-git-branch-to-main/</guid><description>每次多人協作，都有一堆分支衝突嗎？</description><content:encoded>&lt;p>簡單來說，分成三個階段：&lt;/p>
+&lt;ol>
+&lt;li>將自己分支的本地端和遠端同步。&lt;/li>
+&lt;li>將主分支合併到自己的主分支，並讓本地端和遠端同步。將主分支合併到自己的主分支，並讓本地端和遠端同步。&lt;/li>
+&lt;li>將自己分支合併到主分支。&lt;/li>
+&lt;/ol>
+&lt;p>假設公司的主要分支叫做 &lt;code>main&lt;/code>，而我現在在開發的分支叫做 &lt;code>feature/login&lt;/code>，那我要怎麼把我現在的分支合併到 &lt;code>main&lt;/code>？
+首先，要先讓自己的分支是乾淨的，也就是要在 &lt;code>feature/login&lt;/code> 執行：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">git pull
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">git push
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>執行完之後，現在本地端和遠端的 &lt;code>feature/login&lt;/code> 是同步的。&lt;/p>
+&lt;p>接著，要把遠端最新的 &lt;code>main&lt;/code> 給拉到本地端，執行：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">git fetch origin main
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>此時，我的本地端就有最新的 &lt;code>feature/login&lt;/code> 和 &lt;code>origin/main&lt;/code>。&lt;/p>
+&lt;p>接著就是要把這兩個分支合併起來。在 &lt;code>feature/login&lt;/code> 分支上執行：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">git merge origin/main
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>這個指令是要將剛剛從遠端啦過來的最新的 &lt;code>main&lt;/code> 合併到我的 &lt;code>feature/login&lt;/code>。
+此時，可能會發生所謂的「衝突」（Conflict），這是因為你跟別人可能有改到同一個檔案。因此，所謂的「解衝突」就是要決定說，在這個檔案裡面，兩個檔案不一樣的地方要選擇哪一個。&lt;/p>
+&lt;p>當解完衝突之後，再執行：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">git push
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>這時候，你是將你的 &lt;code>feature/login&lt;/code> 分支（其中也包含 &lt;code>main&lt;/code> 的部分）給推到遠端程式碼上面。
+此時可以檢查 Commit 記錄。所謂的 Commit 記錄就是每一次程式碼提交的「截圖」。
+若 &lt;code>main&lt;/code> 最新的 Commit 記錄有包含在 &lt;code>feature/login&lt;/code> 的 Commit 記錄裡面，那就代表你的 &lt;code>feature/login&lt;/code> 已經包含了 &lt;code>main&lt;/code>，這時就可以發出合併請求（Merge Request），等待主管同意。&lt;/p></content:encoded></item></channel></rss>
